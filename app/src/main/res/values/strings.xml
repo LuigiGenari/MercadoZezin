@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MercadoZezin</string>
+    <string name="title_activity_cadastro_produto">CadastroProdutoActivity</string>
+</resources>
