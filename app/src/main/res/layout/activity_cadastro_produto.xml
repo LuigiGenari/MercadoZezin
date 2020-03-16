@@ -8,32 +8,35 @@
     tools:context=".CadastroProdutoActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/nomeEditText"
         android:layout_width="match_parent"
         android:layout_height="56dp"
+        android:autoText="false"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Nome" />
+        android:hint="Nome"
+        android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/precoEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Preço" />
+        android:hint="Preço"
+        android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/quantidadeEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Quantidade"
         android:inputType="number" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/salvarButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="voltarPrimeira"
         android:text="Salvar" />
 
 </LinearLayout>
