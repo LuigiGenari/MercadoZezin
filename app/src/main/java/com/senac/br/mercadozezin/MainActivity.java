@@ -70,4 +70,7 @@ public class MainActivity extends AppCompatActivity {
         Intent cad = new Intent(this, CadastroProdutoActivity.class);
         startActivity(cad);
     }
+
+
 }
+
